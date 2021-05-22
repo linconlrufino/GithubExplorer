@@ -8,6 +8,7 @@ const App: React.FC = () => (
   <>
     <BrowserRouter>
       <Routes />
+
     </BrowserRouter>
     <GlobalStyle />
   </>
