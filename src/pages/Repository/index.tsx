@@ -46,6 +46,7 @@ const Repository: React.FC = () => {
       setIssues(response.data);
     });
 
+    // #region
     // async function loadData(): Promise<void> {
     //   const [repository, issues] = await Promise.all([
     //     await api.get(`repos/${params.repository}`),
@@ -55,6 +56,7 @@ const Repository: React.FC = () => {
     //   console.log(issues);
     // }
     // loadData();
+    // #endregion
   }, [params.repository]);
 
   return (
