@@ -20,7 +20,6 @@
     "styled-components": "^5.3.0",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1",
-    "homepage": "https://linconlrufino.github.io/github_explorer/"
   },
   "scripts": {
     "start": "react-scripts start",
